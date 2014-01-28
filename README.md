@@ -1,14 +1,13 @@
 sonosspark
 ==========
 
-Control Sonos via Spark (spark.io)
-
-
+Control Sonos with a Spark (spark.io)
 
 This is a little projekt to get my Spark control a Sonos speaker in the local network.
-
-
 There is no real error handling so far and it is not too well tested, but seems to work ;)
+
+
+To Discover IPs 
 
 
 
@@ -57,3 +56,10 @@ Here what will/shall happen:
   * M: Toggle Mute for the selected Sonos
   * U: Increase Volume for the selected Sonos
   * J: Decrease Volume for the selected Sonos
+
+
+### Linux / Mac serial connection
+
+The following little shell script keeps a screen ready as soon as /dev/tty.usbmodemXXXXX becomes available. 
+
+    while true; do [ -e /dev/tty.usbmodemfa2121 ] && screen -h 500 /dev/tty.usbmodemfa2121 ; sleep 5; reset; echo "No tty available"; done
