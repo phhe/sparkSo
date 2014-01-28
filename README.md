@@ -1,4 +1,4 @@
-sonosspark
+sparkSo
 ==========
 
 Control Sonos with a Spark (spark.io)
