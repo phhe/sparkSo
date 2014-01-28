@@ -7,8 +7,6 @@ This is a little projekt to get my Spark control a Sonos speaker in the local ne
 There is no real error handling so far and it is not too well tested, but seems to work ;)
 
 
-To Discover IPs 
-
 
 
 
