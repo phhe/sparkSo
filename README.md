@@ -9,7 +9,7 @@ There is no real error handling so far and it is not too well tested, but seems 
 
 ### The Project
 
-The idea is to get able to control sonos from wall mounted switches. A friend of mine is working at the hardware, below pictures of its current progress. As you can see this module also includes some LEDs which can also be controlled from the spark sitting in the back.
+The idea is to control sonos with switches mounted on the wall like light switches. A friend of mine is working on the hardware, below pictures of its current progress. As you can see this module includes some LEDs which can be used to indicate the mute status of a speaker or something somiliar.
 
 
 [Picture 1](https://github.com/phhe/sparkSo/blob/master/img/IMG_5257.jpeg?raw=true)
