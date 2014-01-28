@@ -7,7 +7,14 @@ This is a little projekt to get my Spark control a Sonos speaker in the local ne
 There is no real error handling so far and it is not too well tested, but seems to work ;)
 
 
+### The Project
 
+The idea is to get able to control sonos from wall mounted switches. A friend of mine is working at the hardware, below pictures of its current progress. As you can see this module also includes some LEDs which can also be controlled from the spark sitting in the back.
+
+
+[Picture 1](https://github.com/phhe/sparkSo/blob/master/img/IMG_5257.jpeg?raw=true)
+
+[Picture 2](https://github.com/phhe/sparkSo/blob/master/img/IMG_7468.jpeg?raw=true)
 
 
 ## Progress
